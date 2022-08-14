@@ -38,7 +38,8 @@ body {
 .container:hover .middle {
   opacity: 1;
 }
-.colorme{
+
+.colorme {
   border-radius: 12px;
   background-color: hsl(178, 100%, 50%);
 }
@@ -58,8 +59,8 @@ body {
   text-align: center;
 }
 
-.eyecon {
-
+.icons {
+  margin-bottom: 5px;
 }
 
 h5 {
