@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 19rem;
+  border: 0;
+  padding: 15px;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.thenft {
+  border-radius: 10px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.thenft:after {
+  border-radius: 10px;
+}
+
+.container:hover .thenft {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.colorme{
+  border-radius: 12px;
+  background-color: hsl(178, 100%, 50%);
+}
+
+.container {
+  padding: 0;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.eyecon {
+
+}
+
+h5 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.jw {
+  color: hsl(215, 51%, 70%);
+}
+
+.item1 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.item2 {
+  text-align: right;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.card-title {
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.card-title:hover {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  color: hsl(178, 100%, 50%);
+}
+
+.julian:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.list-group-item {
+  background-color: hsl(216, 50%, 16%);
+  border: 0;
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  padding: 10% 0;
+}
+
+.avatar {
+  width: 10%;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: 1px solid;
+}
+
+.creator {
+  font-size: 13px;
+  border-top: 1px solid;
+  border-color: hsl(215, 32%, 27%);
+  padding-top: 5%;
+}
